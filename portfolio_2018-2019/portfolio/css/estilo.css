@@ -1,0 +1,340 @@
+html, body{border: 0px; padding: 0px; margin: 0px;}
+*{font-family: Roboto;}
+
+a{text-decoration: none; color: #000; color: #fff;}
+
+.fl{float: left;}
+.fr{float: right;}
+.cl{clear: both;}
+.delimitador{width: 93%; margin: auto;}
+
+.test {background: pink;}
+/* HEADER */
+
+header
+{
+    width: 100%;
+    background: black;
+}
+
+#cabecalho
+{
+    
+    z-index: 5;
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    background: #000;
+    box-shadow: 0px 1px 15px 0px #fff;
+}
+
+#logo
+{
+    padding-top: 2px;
+    width: 100px;
+    margin: 0px;
+}
+
+li
+{
+    padding: 0px 30px;
+    text-align: center;
+    list-style: none; 
+    display: inline-block;
+    color: #fff;
+}
+
+li:hover
+{
+    border-bottom: solid 1px #fff;
+}
+
+
+
+#entrada
+{
+    width: 100%;
+    height: 100vh;
+    background: #000;
+}
+
+#box_img_entrada
+{
+    margin: 20px 0px 0px 20px;
+    width: 70%;
+    height: 80vh;
+    background-image: url(../img/estrutura/img_entrada.jpg);
+    background-size: cover;
+    background-position: center;
+    
+}
+
+#box_txt_entrada
+{
+    margin-top: 20px;
+    background: #fff;
+    box-shadow: 2px 2px 13px 3px #000;
+    width: 20%;
+    margin-left: 5%;
+    height: 80vh;
+}
+
+.txt1
+{
+    font-size: 5em;
+    writing-mode: vertical-rl;
+    -webkit-transform: rotate(180deg);
+    margin-top: 20vh;
+    margin-left: 30px;
+}
+
+.txt2{
+    font-size: 1.7em;
+    writing-mode: vertical-rl;
+    -webkit-transform: rotate(180deg);
+    margin-top: 20vh;
+}
+
+/* FIM DA HEADER*/
+
+
+
+/* MAIN */
+
+/*sobre mim*/
+#sobre_mim{width: 100%; margin: 5% 0%;}
+
+
+legend{font-size: 1.7em; text-align: center}
+
+.img_paozinhos
+{
+    min-width: 25%; 
+    height: 50vh;
+    margin-left: 3%;
+    background-image: url(../img/estrutura/paozinho_aline.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.info_pessoal{width: 60%; margin: 2%;}
+
+
+/*habilidades*/
+#habilidades{width: 100%; margin: 5% 0%;}
+
+.x1{width: 25%; text-align: right;}
+.total
+{
+    height: 15px;
+    margin: 19px 0px 0px 15px;
+    background-image: url(../img/estrutura/fundo_habilidades.jpeg);
+    background-attachment: fixed;
+    background-position: top;
+    border: solid 1px #000;
+}
+
+.restante
+{
+    background: #fff;
+    margin-top: 19px;
+    height: 15px;
+    border: solid 1px #000;
+}
+
+/*projetos*/
+#projetos{width: 100%; margin: 5% 0%;}
+.projetos{position: relative;}
+
+.imgs 
+{
+    width: 30%; 
+    padding-left: 3%; 
+    padding-bottom: 3%; 
+    margin-top: 5px;
+    position: relative;
+    cursor: pointer;
+}
+
+.legenda_prj
+{
+    position: absolute;
+    bottom: 44px;
+    background: #babaca;
+    width: 87.95%;
+    height: 65px;
+    padding: 3% 0% 3% 3%; 
+    text-align: center;
+    font-size: 1.3em;
+    opacity: 0.8; 
+}
+
+
+/*modal*/
+#JanelaModal
+{
+    display: none;
+    position: fixed;
+    z-index: 6;
+    padding-top: 50px;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0,0,0, 0.8);
+    overflow: auto;
+}
+
+#imgModal
+{
+    margin: auto;
+    display: block;
+    width: 100%;
+    max-width: 800px;
+}
+
+.imgModal
+{
+    margin: auto;
+    display: block;
+    width: 100%;
+    max-width: 850px;
+    margin-bottom: 7%;
+    margin-top: 2%;
+}
+
+figcaption{
+    margin: auto;
+    display: block;
+    width: 100%;
+    max-width: 850px;
+    color: #fff;
+    font-style: italic;
+}
+/* FIM DO MAIN */
+
+
+
+/* FOOTER */
+
+footer
+{
+    width: 100%; 
+    height: 100%;
+    background:#000;
+    color: #fff;
+    padding-top: 30px;
+}
+
+.adapta
+{
+    width: 90%;
+    margin: auto;
+}
+
+.contato_x1
+{
+    width: 40%;
+    padding: 0% 2%;
+    margin: auto;
+}
+.contato_x1 p{text-align: center;}
+.borda{border: solid 1px #F9F9F9; border-radius: 5px;}
+.contato_x2
+{
+    width: 40%;
+    padding: 0% 2%;
+    margin: 0% 4%;
+}
+.adapta h1
+{
+    font-size: 18px; 
+    text-align: center; 
+    border-bottom: solid 1px #F9F9F9;
+}
+
+input[type='text'], input[type='email'], textarea
+{
+    width: 100%;
+    border-radius: 5px;
+}
+
+input[type='submit']
+{
+    width: 75px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: solid 1px  #F9F7F7;
+    color: #F9F7F7;
+    background: transparent;
+    cursor: pointer;
+    text-align: center;
+}
+
+
+/* FIM DO FOOTER */
+
+
+/*adptações prévias */
+@media screen and (max-width: 900px)
+{
+    li{font-size: 0.9em; padding: 0px 13px;}
+    ul{padding: 0px;}    
+    
+    
+    #box_txt_entrada
+    {
+        width: 80%;
+        height: 20vh;
+        position: absolute;
+        top: 60vh;
+        right: 5%;    
+    }
+    
+    #box_img_entrada
+    {
+        width: 85%;
+    }
+    
+    .txt1
+    {
+        font-size: 3em;
+        writing-mode: horizontal-tb;
+        margin: 5vh 0px 0px 30px;
+        transform: rotate(0deg);
+        width: 95%;
+    }
+    
+    .txt2
+    {
+        writing-mode: horizontal-tb;
+        margin: 0px 0px 0px 30px;
+        transform: rotate(0deg);
+    }
+    
+    
+    
+    .img_paozinhos{display: none;}
+    .info_pessoal {width: 90%;}
+    
+    .imgs{width: 45%;}
+    .legenda_prj{width: 90.95%;}
+    
+    .contato_x1{width: 100%;}
+    
+    #imgModal{max-width: 90%;}
+    .imgModal{max-width: 90%; padding-bottom: 100px;}
+    
+    #legenda_modal{width: 90%;}
+}
+
+
+@media screen and (max-width: 500px)
+{
+    .imgs{width: 92%;}
+    .legenda_prj{width: 93.95%;}
+}
+
+
+
+
