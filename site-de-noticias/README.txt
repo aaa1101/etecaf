@@ -1,3 +1,4 @@
+Site de notícias: JADNews
 Projeto desenvolvido em sala de aula para simular um site de notícias, onde as notícias devem possuir:
 	- Título ( até 50 caracteres dependendo da fonte escolhida)
 	- Linha fina (subtítulo com até 80 caracteres dependendo da fonte escolhida)
