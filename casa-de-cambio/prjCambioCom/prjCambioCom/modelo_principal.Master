@@ -1,0 +1,55 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="modelo_principal.master.cs" Inherits="prjCambioCom.modelo_principal" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>CâmbioCom</title>
+    <link href="css/estilo.css" rel="stylesheet" type="text/css" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+            <div class="espaco_logo">
+                <a href="Index.aspx">
+                    <img src="img/logo.png" class="logo">
+                </a>
+            </div>
+
+    <header>
+		<nav>
+			<div class="menu fr">
+                
+				<div class="item_menu fl">
+                    <a href="conversao.aspx">Conversão</a>
+                </div>
+                
+				<div class="item_menu fl">
+                    <a href="cotacao.aspx">Cotação</a>
+                </div>
+                
+				<div class="item_menu fl">
+                    <a href="contato.aspx">Contato</a>
+                </div>
+                
+				<div class="cl"></div>
+                
+			</div>
+			<div class="cl"></div>
+		</nav>
+	</header>
+
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+      
+
+
+        </asp:ContentPlaceHolder>
+    </div>
+    </form>
+</body>
+</html>

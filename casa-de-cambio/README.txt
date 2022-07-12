@@ -1,0 +1,2 @@
+Casa de câmbio: CambioCom
+Projeto desenvolvido em sala de aula onde o usuário escolheria entre as moedas Real, Dolar, Euro e Peso argentino para conveter entre si.  Além também do projeto disponibilizar uma página onde mostra a cotação de cada moeda.
