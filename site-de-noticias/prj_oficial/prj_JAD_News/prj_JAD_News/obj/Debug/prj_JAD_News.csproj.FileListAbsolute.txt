@@ -1,0 +1,24 @@
+C:\Users\stefa\Documents\etecs\EtecAF\3I2\DSO\site_noticias\prj_oficial\prj_JAD_News\prj_JAD_News\bin\prj_JAD_News.dll
+C:\Users\stefa\Documents\etecs\EtecAF\3I2\DSO\site_noticias\prj_oficial\prj_JAD_News\prj_JAD_News\bin\prj_JAD_News.pdb
+C:\Users\stefa\Documents\etecs\EtecAF\3I2\DSO\site_noticias\prj_oficial\prj_JAD_News\prj_JAD_News\obj\Debug\prj_JAD_News.dll
+C:\Users\stefa\Documents\etecs\EtecAF\3I2\DSO\site_noticias\prj_oficial\prj_JAD_News\prj_JAD_News\obj\Debug\prj_JAD_News.pdb
+C:\Users\stefa\Documents\etecs\EtecAF\não sei mais o que fazer da vida scrr\DSO\2019_03_26 - Correção Página Inicial PORTAL com Classes\dedo\prj_oficial\prj_JAD_News\prj_JAD_News\bin\prj_JAD_News.dll
+C:\Users\stefa\Documents\etecs\EtecAF\não sei mais o que fazer da vida scrr\DSO\2019_03_26 - Correção Página Inicial PORTAL com Classes\dedo\prj_oficial\prj_JAD_News\prj_JAD_News\bin\prj_JAD_News.pdb
+C:\Users\stefa\Documents\etecs\EtecAF\não sei mais o que fazer da vida scrr\DSO\2019_03_26 - Correção Página Inicial PORTAL com Classes\dedo\prj_oficial\prj_JAD_News\prj_JAD_News\obj\Debug\prj_JAD_News.dll
+C:\Users\stefa\Documents\etecs\EtecAF\não sei mais o que fazer da vida scrr\DSO\2019_03_26 - Correção Página Inicial PORTAL com Classes\dedo\prj_oficial\prj_JAD_News\prj_JAD_News\obj\Debug\prj_JAD_News.pdb
+U:\DSO\dedo\prj_oficial\prj_JAD_News\prj_JAD_News\bin\prj_JAD_News.dll
+U:\DSO\dedo\prj_oficial\prj_JAD_News\prj_JAD_News\bin\prj_JAD_News.pdb
+U:\DSO\dedo\prj_oficial\prj_JAD_News\prj_JAD_News\obj\Debug\prj_JAD_News.dll
+U:\DSO\dedo\prj_oficial\prj_JAD_News\prj_JAD_News\obj\Debug\prj_JAD_News.pdb
+C:\Users\stefa\Documents\etecs\EtecAF\3I2\DSO\2019_03_26 - Correção Página Inicial PORTAL com Classes\dedo\prj_oficial\prj_JAD_News\prj_JAD_News\obj\Debug\prj_JAD_News.dll
+C:\Users\stefa\Documents\etecs\EtecAF\3I2\DSO\2019_03_26 - Correção Página Inicial PORTAL com Classes\dedo\prj_oficial\prj_JAD_News\prj_JAD_News\obj\Debug\prj_JAD_News.pdb
+C:\Users\stefa\Documents\etecs\EtecAF\3I2\DSO\2019_03_26 - Correção Página Inicial PORTAL com Classes\dedo\prj_oficial\prj_JAD_News\prj_JAD_News\bin\prj_JAD_News.dll
+C:\Users\stefa\Documents\etecs\EtecAF\3I2\DSO\2019_03_26 - Correção Página Inicial PORTAL com Classes\dedo\prj_oficial\prj_JAD_News\prj_JAD_News\bin\prj_JAD_News.pdb
+C:\Users\stefa\Documents\etecs\EtecAF\3I2\DSO\2019_03_26 - Correção Página Inicial PORTAL com Classes\dedo\prj_oficial\prj_JAD_News\prj_JAD_News\bin\MySql.Data.dll
+C:\Users\stefa\Documents\etecs\EtecAF\3I2\DSO\2019_03_26 - Correção Página Inicial PORTAL com Classes\dedo\prj_oficial\prj_JAD_News\prj_JAD_News\obj\Debug\prj_JAD_News.csprojResolveAssemblyReference.cache
+C:\Users\stefa\Documents\etecs\EtecAF\3I2\DSO\9999 - BAGUNÇA DO DSO\site de noticias\dedo_precaução\prj_oficial\prj_JAD_News\prj_JAD_News\bin\prj_JAD_News.dll
+C:\Users\stefa\Documents\etecs\EtecAF\3I2\DSO\9999 - BAGUNÇA DO DSO\site de noticias\dedo_precaução\prj_oficial\prj_JAD_News\prj_JAD_News\bin\prj_JAD_News.pdb
+C:\Users\stefa\Documents\etecs\EtecAF\3I2\DSO\9999 - BAGUNÇA DO DSO\site de noticias\dedo_precaução\prj_oficial\prj_JAD_News\prj_JAD_News\bin\MySql.Data.dll
+C:\Users\stefa\Documents\etecs\EtecAF\3I2\DSO\9999 - BAGUNÇA DO DSO\site de noticias\dedo_precaução\prj_oficial\prj_JAD_News\prj_JAD_News\obj\Debug\prj_JAD_News.csprojResolveAssemblyReference.cache
+C:\Users\stefa\Documents\etecs\EtecAF\3I2\DSO\9999 - BAGUNÇA DO DSO\site de noticias\dedo_precaução\prj_oficial\prj_JAD_News\prj_JAD_News\obj\Debug\prj_JAD_News.dll
+C:\Users\stefa\Documents\etecs\EtecAF\3I2\DSO\9999 - BAGUNÇA DO DSO\site de noticias\dedo_precaução\prj_oficial\prj_JAD_News\prj_JAD_News\obj\Debug\prj_JAD_News.pdb

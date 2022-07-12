@@ -1,0 +1,82 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="ModeloBase.master.cs" Inherits="prj_JAD_News.ModeloBase" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+    <title>JAD NEWS</title>
+
+        <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+	    <script type="text/javascript" src="js/script.js"></script>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+
+
+<body>
+    <form id="form1" runat="server">
+
+    <header>
+            <div class="delimitador">
+                <div class="logo fl">
+                    <a href="index.aspx"><img src="img/logo.png" alt="Logo" width="100%"></a>
+                </div>
+                    <div class="menu_fechado" id="menu_fechado">
+                        <img src="img/menu.png" alt="menu" width="30px" />
+                    </div>
+                <div class="menu fr">
+                    <asp:Literal ID="menu" runat="server">
+                    
+                    </asp:Literal>
+
+
+                   <%-- <a href="pag_topicos/qualquer_topico.aspx">
+                        <div class="itens_menu fr">Contato</div>
+                    </a>
+                    
+                    <a href="pag_topicos/qualquer_topico.aspx">
+                        <div class="itens_menu fr">Saúde</div>
+                    </a>
+                    
+                    <a href="pag_topicos/qualquer_topico.aspx">
+                        <div class="itens_menu fr">Política</div>
+                    </a>
+                    
+                    <a href="pag_topicos/qualquer_topico.aspx">
+                        <div class="itens_menu fr"> Esporte</div>
+                    </a>
+                    
+                    <a href="pag_topicos/qualquer_topico.aspx">
+                        <div class="itens_menu fr">Educação</div>
+                    </a>
+                    
+                    <a href="pag_topicos/qualquer_topico.aspx">
+                        <div class="itens_menu fr">Economia</div>
+                    </a>--%>
+                    
+                    
+                    
+                    <div class="cl"></div>
+                </div>
+                <div class="cl"></div>
+            </div>
+        </header>
+
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    
+
+    <footer>
+            <div class="rodape">
+                <p>Desenvolvido por Aline e Débora</p>
+            </div>
+    </footer>
+
+    </form>
+</body>
+</html>

@@ -1,0 +1,185 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{86D2B816-3737-4FEC-917B-38B99CB6E74E}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>prj_JAD_News</RootNamespace>
+    <AssemblyName>prj_JAD_News</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="MySql.Data, Version=6.5.4.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>dlls\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="css\estilo.css" />
+    <Content Include="css\estilo_adm.css" />
+    <Content Include="css\estilo_pags.css" />
+    <Content Include="dlls\MySql.Data.dll" />
+    <Content Include="img\logo.png" />
+    <Content Include="img\noticias\img1.png" />
+    <Content Include="img\noticias\img_101.jpg" />
+    <Content Include="img\noticias\img_102.jpg" />
+    <Content Include="img\noticias\img_103.jpg" />
+    <Content Include="img\noticias\img_104.jpg" />
+    <Content Include="img\noticias\img_105.jpg" />
+    <Content Include="img\noticias\img_106.jpg" />
+    <Content Include="img\noticias\img_107.jpg" />
+    <Content Include="img\noticias\img_108.jpg" />
+    <Content Include="img\noticias\img_109.jpg" />
+    <Content Include="img\noticias\img_111.jpg" />
+    <Content Include="img\noticias\img_112.jpg" />
+    <Content Include="img\noticias\img_113.jpg" />
+    <Content Include="img\noticias\img_114.jpg" />
+    <Content Include="img\noticias\img_115.jpg" />
+    <Content Include="img\noticias\img_116.jpg" />
+    <Content Include="img\noticias\img_117.jpg" />
+    <Content Include="img\noticias\img_118.jpg" />
+    <Content Include="img\noticias\img_119.jpg" />
+    <Content Include="img\noticias\img_120.jpg" />
+    <Content Include="img\noticias\img_121.jpg" />
+    <Content Include="img\noticias\img_122.jpg" />
+    <Content Include="img\noticias\img_123.jpg" />
+    <Content Include="img\noticias\img_124.jpg" />
+    <Content Include="img\noticias\img_125.jpg" />
+    <Content Include="img\noticias\menu.png" />
+    <Content Include="img\publicidade.png" />
+    <Content Include="img\publicidade_vertical.png" />
+    <Content Include="index.aspx" />
+    <Content Include="pag_noticias\pag_noticias.aspx" />
+    <Content Include="pag_topicos\topico.aspx" />
+    <Content Include="Web.config" />
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="cls\clsBaseBanco.cs" />
+    <Compile Include="cls\clsNoticias.cs" />
+    <Compile Include="index.aspx.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="index.aspx.designer.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ModeloAdm.Master.cs">
+      <DependentUpon>ModeloAdm.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ModeloAdm.Master.designer.cs">
+      <DependentUpon>ModeloAdm.Master</DependentUpon>
+    </Compile>
+    <Compile Include="ModeloBase.Master.cs">
+      <DependentUpon>ModeloBase.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ModeloBase.Master.designer.cs">
+      <DependentUpon>ModeloBase.Master</DependentUpon>
+    </Compile>
+    <Compile Include="ModeloNoti.Master.cs">
+      <DependentUpon>ModeloNoti.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ModeloNoti.Master.designer.cs">
+      <DependentUpon>ModeloNoti.Master</DependentUpon>
+    </Compile>
+    <Compile Include="pag_noticias\pag_noticias.aspx.cs">
+      <DependentUpon>pag_noticias.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="pag_noticias\pag_noticias.aspx.designer.cs">
+      <DependentUpon>pag_noticias.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="pag_topicos\topico.aspx.cs">
+      <DependentUpon>topico.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="pag_topicos\topico.aspx.designer.cs">
+      <DependentUpon>topico.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="ModeloBase.Master" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="ModeloNoti.Master" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="ModeloAdm.Master" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>55010</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
